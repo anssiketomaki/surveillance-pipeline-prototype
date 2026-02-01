@@ -1,0 +1,3 @@
+[submodule "sensor-engine/vendor"]
+	path = sensor-engine/vendor
+	url = https://github.com/sfranzen/libsensors-cpp.git
