@@ -8,7 +8,7 @@ My goal with this project is to
 - In planning
 - Waiting for Parts (Arduino)
 
-# Defence-pipeline-prototype
+# Surveillance-pipeline-prototype
 A project for prototyping a C++ based devOps stack
 
 Goal of this project is to build a surveillance system prototype to be a basis for derivative projects in the future. Idea of this project is to follow live sensor data with an IoT device, that when meeting set circumstances reports to central microserver. Microserver should complete set tasks when alerted by the IoT device.
@@ -21,10 +21,7 @@ Any quiet waiting for an event that could happen, and what should be detected, r
 
 - IoT-device detects a condition like unexpected temperature drop. Similar path to the previous example is used to report. Such report can be vital in avoiding unwanted consequences, like house water pipes freezing at winter because the automatic door of the garage within the house was found to have been somehow opened.
 
-### Imagining defence usecases:
-- The Arduino that is used should be able to react to different noises that can as well be certain pitch engine noice: Drones? Armoured vehicles? A network of strategically positioned IoT-devices could help in surveillance and make un-noticed movement in an area significantly harder. IoT-devices sleeping when not triggered makes them harder to be detected.
-
-- Similar patterns of IoT-sensor networks reporting to central computer can be also found in other applications like vehicles.
+- Can be adatped to various different scenarios and circumstances, to monitor activity happening on desired sounds or patterns.
 
 # Details
 ### Planned IoT device: Arduino Nano 33 Sense BLE
